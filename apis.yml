@@ -1,8 +1,23 @@
 aid: trillium-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trillium-therapeutics.png
 name: Trillium Therapeutics
-description: 'Trillium Therapeutics is a company surfaced as a portfolio company of nea and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Trillium Therapeutics was a Toronto-based clinical-stage immuno-oncology biopharmaceutical
+  company developing cancer therapeutics (notably CD47-targeting agents). It was acquired by Pfizer in
+  August 2021 for approximately $2.2B and no longer operates as an independent entity. Surfaced as an
+  nea portfolio company and added to the API Evangelist network as a life-sciences lead. Enrichment
+  found no public developer API, SDK, documentation, or developer-portal surface; the company website
+  no longer serves content.'
 url: https://raw.githubusercontent.com/api-evangelist/trillium-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-acquired-by: Pfizer
+x-acquired-date: '2021-08'
 tags:
 - Company
 - Life Sciences
+- Biopharmaceutical
+- Oncology
+- Immuno-Oncology
+- Cancer Therapeutics
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.trilliumtherapeutics.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
